@@ -1,6 +1,6 @@
 const { Telegraf, Scenes, Markup, session } = require('telegraf')
-require('dotenv').config()
-const bot = new Telegraf(process.env.BOT_TOKEN)
+//require('dotenv').config()
+//const bot = new Telegraf(process.env.BOT_TOKEN)
 const ukScene = require('./scenes/uk')
 const ruScene = require('./scenes/ru')
 const kzScene = require('./scenes/kz')
